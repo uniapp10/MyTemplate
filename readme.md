@@ -16,6 +16,6 @@
 
 2 使用方式:
 
-2.1 拉取项目`git@igit.58corp.com:zhudongdong/iOS_58Template.git` 
+2.1 拉取项目`https://github.com/uniapp10/MyTemplate` 
 
 2.2 运行 `sudo sh install.sh`
