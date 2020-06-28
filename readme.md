@@ -8,6 +8,8 @@
 
 1 具备能力
 
+`Xcode 11` 下使用
+
 1.1 新建工程, 支持 OC 和 Swift 两种语言;
 
 1.2 文件模板只修改了 OC 的 ViewController, 其他待完善.
