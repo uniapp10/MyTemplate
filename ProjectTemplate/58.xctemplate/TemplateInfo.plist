@@ -67,13 +67,13 @@ self.window.rootViewController = nav;
 							<string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
 							<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
 							<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
-							<string>Info.plist:UIMainStoryboardFile</string>
+							<!-- <string>Info.plist:UIMainStoryboardFile</string>
 							<string>Info.plist:UIApplicationSceneManifest:UISceneStoryboardFile</string>
-							<string>Base.lproj/Main.storyboard</string>
+							<string>Base.lproj/Main.storyboard</string> -->
 						</array>
 						<key>Definitions</key>
 						<dict>
-							<key>Base.lproj/Main.storyboard</key>
+							<!-- <key>Base.lproj/Main.storyboard</key>
 							<dict>
 								<key>Path</key>
 								<string>Main.storyboard</string>
@@ -83,7 +83,14 @@ self.window.rootViewController = nav;
 							<key>Info.plist:UIMainStoryboardFile</key>
 							<string>&lt;key&gt;UIMainStoryboardFile&lt;/key&gt;
                             &lt;string&gt;Main&lt;/string&gt;
-                        </string>
+                        </string> -->
+                        <key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+						<string>let nav = UINavigationController(rootViewController: ViewController())
+self.window = UIWindow(frame: UIScreen.main.bounds)
+self.window?.backgroundColor = .white
+self.window?.rootViewController = nav
+self.window?.makeKeyAndVisible()
+</string>
 						</dict>
 					</dict>
 					<dict>
